@@ -38,6 +38,24 @@ Welcome to Session 1 of the Advanced Unified Namespace (UNS) Workshop. This sess
      - Defines MQTT broker address, port, and topic subscriptions.
      - Includes a placeholder for the OpenAI API key (to be replaced with your key).
 
+   #### Setting Up Your OpenAI API Key
+   - To use the chatbot, you need an OpenAI API key. Follow these steps:
+     1. Visit the [OpenAI API Key page](https://platform.openai.com/signup/).
+     2. Sign up for an account or log in if you already have one.
+     3. Navigate to the API Keys section and generate a new key.
+     4. Copy the generated key.
+     5. Open the `config.py` file in a text editor.
+     6. Replace the placeholder on line 4:
+        ```python
+        OPENAI_API_KEY = ''
+        ```
+        with your actual API key:
+        ```python
+        OPENAI_API_KEY = 'your_api_key_here'
+        ```
+     7. Save the file.
+   - Note: Ensure you have sufficient credits in your OpenAI account to use the API.
+
 ### 6. **`tags4.json`**
    - **Purpose**: A backup of the tags for the Ignition project containing the simulator.
    - **How to Use**:
@@ -96,4 +114,11 @@ This directory includes resources for restoring an Ignition gateway, including p
 
 ---
 
+## Feedback
+
+We hope you find this session informative and engaging. Please share your feedback and questions during the workshop.
+
+---
+
+Stay tuned for additional documentation updates.
 
